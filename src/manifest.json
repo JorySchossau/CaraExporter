@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Cara Export to CSV",
+  "version": "0.1.0",
+  "description": "Adds an Export-to-CSV button to the Cara data explorer.",
+ 
+  "content_scripts": [{
+    "js": ["caraexport.min.js"],
+    "matches": ["https://web.cara-app.com/export/*"]
+  }]
+ 
+}
